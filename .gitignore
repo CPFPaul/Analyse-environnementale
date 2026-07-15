@@ -1,0 +1,15 @@
+# GeoPackage de zonages : trop volumineux pour Git (> 100 Mo, limite GitHub).
+# Distribué séparément via une Release GitHub (voir README).
+donnees/*.gpkg
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Fichiers temporaires QGIS / système
+*.qgs~
+.DS_Store
+Thumbs.db
+
+# Archive de distribution (générée, pas versionnée)
+*.zip
