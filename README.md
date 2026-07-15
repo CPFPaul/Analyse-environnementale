@@ -31,15 +31,15 @@ dépôt (onglet *Releases*, à droite de la page GitHub).
 
 ## Installation (utilisateurs finaux / collègues)
 
-1. Télécharger la dernière version du plugin depuis l'onglet "Releases"
-(⚠️ Attention : Ne téléchargez pas les liens "Source code" générés automatiquement par GitHub (ceux situés en bas de page). Ils ne contiennent pas les données SIG (fichiers .gpkg) et ne permettront pas au plugin de fonctionner correctement. Tout est expliqué dans la release note avec le lien de téléchargement)
-2. QGIS : *Extensions > Installer/Gérer les extensions > Installer depuis
+1. Télécharger la dernière version du plugin depuis l'onglet "Releases"<br/>
+*(⚠️ *Attention : Ne téléchargez pas les liens **"Source code"** générés automatiquement par GitHub (ceux situés en bas de page). Ils ne contiennent pas les données SIG (fichiers .gpkg) et ne permettront pas au plugin de fonctionner correctement. Tout est expliqué dans la release note avec le lien de téléchargement*)*
+3. QGIS : *Extensions > Installer/Gérer les extensions > Installer depuis
    un ZIP*
-3. Sélectionner le fichier, Installer
-4. Une icône apparaît dans la barre d'outils, et un menu
+4. Sélectionner le fichier, Installer
+5. Une icône apparaît dans la barre d'outils, et un menu
    *Analyse Environnementale* dans le menu Extensions
 
-## Mettre à jour le plugin - Pour les developpeurs
+## Mettre à jour le plugin - _Pour les developpeurs_
 
 - **Nouvelles couches / champs / logique d'analyse** → modifier
   `diagnostic_logic.py` (section `CONFIGURATION` en haut de fichier pour
