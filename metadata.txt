@@ -1,19 +1,25 @@
 [general]
 name=Analyse Environnementale
 qgisMinimumVersion=3.22
-description=Pré-diagnostic environnemental et réglementaire pour la rédaction de Plans Simples de Gestion forestiers (PACA)
+qgisMaximumVersion=3.99
+description=Pré-diagnostic environnemental et réglementaire pour la rédaction de Plans Simples de Gestion (PSG) forestiers en région PACA.
 version=1.0.0
-author=Paul
-email=votre.email@exemple.fr
+author=Paul DALLES
+email=paul.dalles@provenceforet.fr
+author_name=Paul DALLES - Gestionnaire Forestier Professionnel
 
-about=Analyse en un clic les contraintes environnementales et réglementaires (Natura 2000, ZNIEFF, réserves, PPR, etc.) intersectant une propriété forestière, et génère un rapport texte/CSV ainsi que des couches de contexte dans le projet QGIS.
+about=Analyse en un clic les contraintes environnementales et réglementaires (Natura 2000, ZNIEFF, réserves, PPR, etc.) intersectant une propriété forestière. Automatise la génération de rapports (CSV/texte) et l'intégration de couches de contexte dans le projet QGIS. Contact technique : 06 72 00 33 75.
 
-tracker=
-repository=
+tags=forêt,paca,environnement,diagnostic,psg,natura2000,znieff,géomatique
+
+tracker=https:https://github.com/CPFPaul/Analyse-environnementale/issues
+repository=https://github.com/CPFPaul/Analyse-environnementale
+homepage=https://provenceforet.fr
+
 category=Vector
 icon=icon.png
 
 experimental=True
 deprecated=False
 
-changelog=1.0.0 : première version packagée en plugin, à partir du script diagnostic_psg_qgis.py
+changelog=1.0.0 : Première version packagée en plugin, basée sur le script diagnostic_psg_qgis.py. Automatisation des intersections et export de rapports.
