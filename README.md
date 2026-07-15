@@ -29,15 +29,17 @@ Le fichier `donnees/Analyse_environnementale.gpkg` dépasse la limite de
 100 Mo de GitHub. Il est distribué séparément via les **Releases** de ce
 dépôt (onglet *Releases*, à droite de la page GitHub).
 
-### Pour reconstruire le plugin installable (fichier .zip) :
+## Installation (utilisateurs finaux / collègues)
 
-1. Cloner ou mettre à jour ce dépôt
-2. Télécharger la dernière version du GeoPackage depuis l'onglet *Releases*
-3. Le placer dans `analyse_environnementale/donnees/Analyse_environnementale.gpkg`
-4. Zipper le dossier `analyse_environnementale/` (en excluant `__pycache__`)
-5. Dans QGIS : *Extensions > Installer/Gérer les extensions > Installer depuis un ZIP*
+1. Télécharger la dernière version du plugin depuis l'onglet "Releases"
+(⚠️ Attention : Ne téléchargez pas les liens "Source code" générés automatiquement par GitHub (ceux situés en bas de page). Ils ne contiennent pas les données SIG (fichiers .gpkg) et ne permettront pas au plugin de fonctionner correctement. Tout est expliqué dans la release note avec le lien de téléchargement)
+2. QGIS : *Extensions > Installer/Gérer les extensions > Installer depuis
+   un ZIP*
+3. Sélectionner le fichier, Installer
+4. Une icône apparaît dans la barre d'outils, et un menu
+   *Analyse Environnementale* dans le menu Extensions
 
-## Mettre à jour le plugin
+## Mettre à jour le plugin - Pour les developpeurs
 
 - **Nouvelles couches / champs / logique d'analyse** → modifier
   `diagnostic_logic.py` (section `CONFIGURATION` en haut de fichier pour
@@ -48,14 +50,6 @@ dépôt (onglet *Releases*, à droite de la page GitHub).
 - **Apparence de la fenêtre** → `ui_dialog.py`
 - **Menu / barre d'outils QGIS** → `plugin_main.py`
 
-## Installation (utilisateurs finaux / collègues)
-
-1. Télécharger le `.zip` du plugin (préparé selon les étapes ci-dessus)
-2. QGIS : *Extensions > Installer/Gérer les extensions > Installer depuis
-   un ZIP*
-3. Sélectionner le fichier, Installer
-4. Une icône apparaît dans la barre d'outils, et un menu
-   *Analyse Environnementale* dans le menu Extensions
 
 ## Prérequis
 
